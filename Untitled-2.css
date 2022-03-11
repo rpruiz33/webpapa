@@ -1,0 +1,90 @@
+
+html {
+    font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: 'Smooch Sans', sans-serif;
+   
+  }
+  svg{
+   color: rgb(14, 9, 2);
+   width:120px;height:150 px ;color: blue;
+   
+
+  }
+  body {
+    
+   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+ }
+ h1 {
+   color: maroon;
+   margin-left: 40px;
+   font-size:200px;  
+
+}
+
+#sombra {
+   float:left;
+   padding:0 5px 5px 0; /*Esta es la profundidad de nuestra sombra, sí haces más grandes estos valores, el efecto de sombra es mayor también */
+
+   } 
+   
+   #sombra img {
+   display:block;
+   position:relative;
+   top: -3px; /* Desfasamos la imagen hacia arriba */
+   left:-3px; /*Desfasamos la imagen hacia la izquierda */
+   padding:5px;
+   background:#2c2a94; /*Definimos un color de fondo */
+   border:1px solid;
+   border-color: #332872 #332872#332872 #332872 /*Creamos un marco para acentuar el efecto */
+   }
+
+   div {
+
+      margin: 50px;
+   
+      width: 66%;
+    
+   
+   }
+   
+span{
+
+
+  border: 6px rgb(209, 27, 27);
+}
+ p{
+   margin: 60px;
+   background: rgb(243, 242, 237);
+   width: 66%;
+   font-size: 65px;
+   border-color: #332872;
+}
+
+ 
+ul{
+
+   margin: 60px;
+   background: rgb(243, 242, 237);
+   width: 66%;
+   font-size: 65px;
+
+
+}
+ 
+ol{
+
+   margin: 60px;
+   background: rgb(243, 242, 237);
+   width: 66%;
+   font-size: 65px;
+
+
+}
+
+
+footer{
+   margin: 60px;
+   background: gold;
+   width: 66%;
+
+}
